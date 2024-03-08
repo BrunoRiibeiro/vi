@@ -27,5 +27,5 @@ set hlsearch
 " Enable the highlighting of the search pattern and make the search incremental, updating as you type.
 set incsearch
 
-" Enable clipboard support.
-set clipboard=unnamedplus
+" Enable clipboard support on Linux | turn of on macOs.
+" set clipboard=unnamedplus
