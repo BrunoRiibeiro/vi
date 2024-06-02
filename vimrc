@@ -10,6 +10,9 @@ syntax on
 " Add numbers to each line on the left-hand side.
 " set number relativenumber
 
+" Set text line lenght
+set textwidth=80
+
 " Set shift width to 4 spaces.
 set shiftwidth=4
 
@@ -27,5 +30,5 @@ set hlsearch
 " Enable the highlighting of the search pattern and make the search incremental, updating as you type.
 set incsearch
 
-" Enable clipboard support on Linux | turn of on macOs.
+" Enable y as clipboard.
 " set clipboard=unnamedplus
