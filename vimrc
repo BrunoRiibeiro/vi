@@ -7,9 +7,6 @@ filetype indent on
 " Turn syntax highlighting on.
 syntax on
 
-" Add numbers to each line on the left-hand side.
-" set number relativenumber
-
 " Set text line lenght
 set textwidth=80
 
@@ -30,5 +27,12 @@ set hlsearch
 " Enable the highlighting of the search pattern and make the search incremental, updating as you type.
 set incsearch
 
-" Enable y as clipboard.
-" set clipboard=unnamedplus
+" Set trailing spaces highlighting.
+highlight WhitespaceEOL ctermbg=red guibg=red
+match WhitespaceEOL /\s\+$/
+
+let g:vim_ai_chat = {
+\  "ui": {
+\    "open_chat_command": "preset_tab",
+\  },
+\}
