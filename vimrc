@@ -32,6 +32,9 @@ highlight WhitespaceEOL ctermbg=red guibg=red
 match WhitespaceEOL /\s\+$/
 
 let g:vim_ai_chat = {
+\  "options": {
+\    "model": "gpt-4.1",
+\  },
 \  "ui": {
 \    "open_chat_command": "preset_tab",
 \  },
