@@ -33,7 +33,7 @@ match WhitespaceEOL /\s\+$/
 
 let g:vim_ai_chat = {
 \  "options": {
-\    "model": "gpt-4.1",
+\    "model": "gpt-4.1-nano",
 \  },
 \  "ui": {
 \    "open_chat_command": "preset_tab",
