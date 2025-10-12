@@ -12,9 +12,11 @@ set textwidth=80
 
 " Set shift width to 4 spaces.
 set shiftwidth=4
+autocmd FileType html setlocal shiftwidth=2
 
 " Set tab width to 4 columns.
 set tabstop=4
+autocmd FileType html setlocal tabstop=2
 
 " Set mouse on.
 set mouse=a
